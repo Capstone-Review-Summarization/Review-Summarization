@@ -1,15 +1,16 @@
 # Pre-Processing
 
+Python version userd = 3.8.0
 To install the virtual environment, use in the commands in setup.txt file
 After installing necessary packages, use this command to install all the other packages:
 
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
-If abovr cmd not working or if you are having Python2.x and Python3.x in your system, use
+If above cmd not working or if you are having Python2.x and Python3.x in your system, use
 
-pip3 install -r requirements.txt (Python 3)
+`pip3 install -r requirements.txt` (Python 3)
 
-Files in workflow:
+## Files in workflow:
 sample-data.py        to take sample data from original dataset
 combine-data.py       to combine all the data files in a single file
 preprocessing.py
