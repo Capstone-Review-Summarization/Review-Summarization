@@ -1,0 +1,8 @@
+jupyter==1.0.0
+sklearn
+nltk==3.7
+pandas==1.4.2
+rouge
+seaborn
+textblob
+wordcloud

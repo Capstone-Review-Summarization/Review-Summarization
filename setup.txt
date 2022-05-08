@@ -1,0 +1,7 @@
+conda create -n env_name python==3.8
+conda activate env_name
+conda install cudatoolkit=11.2 cudnn=8.1 -c=conda-forge
+pip install --upgrade tensorflow-gpu==2.8.0
+
+pip install --user ipykernel
+python -m ipykernel install --user --name=env_name
