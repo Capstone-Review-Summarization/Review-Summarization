@@ -27,3 +27,5 @@ clustering-sample.ipynb
 pre-clustering.ipynb
 
 clustering.ipynb
+
+wre.ipynb
