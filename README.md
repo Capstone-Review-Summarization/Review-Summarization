@@ -11,11 +11,19 @@ If above cmd not working or if you are having Python2.x and Python3.x in your sy
 `pip3 install -r requirements.txt` (Python 3)
 
 ## Files in workflow:
+
 sample-data.py        to take sample data from original dataset
+
 combine-data.py       to combine all the data files in a single file
+
 preprocessing.py
+
 remove-cols.py
+
 final-clean.ipynb
+
 clustering-sample.ipynb
+
 pre-clustering.ipynb
+
 clustering.ipynb
