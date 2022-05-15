@@ -1,6 +1,6 @@
 # Pre-Processing
 
-Python version userd = 3.8.0
+Python version = 3.8.0
 To install the virtual environment, use in the commands in setup.txt file
 After installing necessary packages, use this command to install all the other packages:
 
