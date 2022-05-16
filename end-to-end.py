@@ -186,8 +186,8 @@ def summarizer(content_list):
     return summaries
 
 def final_steps(content_list):
-    if (len(content_list) < 1):
-        return ''
+    if (len(content_list) <= 1):
+        return content_list
     while (len(content_list) > 1):
         text_clusters = clustering(content_list)
         for i in range(len(text_clusters[0])):
