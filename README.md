@@ -10,4 +10,4 @@ If above cmd not working or if you are having Python2.x and Python3.x in your sy
 
 `pip3 install -r requirements.txt` (Python 3)
 
-## To execute the program: run end-to-end.py file and download additional packages and dependencies mentioned in the file comments
+## To execute the program: run `end-to-end.py` file and download additional packages and dependencies mentioned in the file comments
