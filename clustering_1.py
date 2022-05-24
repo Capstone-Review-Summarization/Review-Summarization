@@ -29,11 +29,11 @@ def clustering(corpus_for_clustering):
         cluster.append(df_cluster['text'][0])
         cluster.append(df_cluster['text'][1])
         for k in range(2, len(df_cluster)):
-            if(len(word_tokenize(corpus_for_clustering[k])) + token_len < 512):
-                token_len = token_len + len(word_tokenize(corpus_for_clustering[k]))
-                cluster.append(corpus_for_clustering[k])
+            if(len(word_tokenize(df_cluster['text'][k])) + token_len < 512):
+                token_len = token_len + len(word_tokenize(df_cluster['text'][k]))
+                cluster.append(df_cluster['text'][k])
                 df_cluster.drop(k, inplace=True)
-                already_in_cluster.append(corpus_for_clustering[k])
+                already_in_cluster.append(df_cluster['text'][k])
             else:
                 break
         corpus_for_clustering = [ review for review in corpus_for_clustering if review not in already_in_cluster ]
