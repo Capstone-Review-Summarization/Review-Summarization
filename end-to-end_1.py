@@ -15,7 +15,7 @@ from rouge import Rouge
 import random
 from nltk.tokenize import word_tokenize
 from nltk.tokenize.treebank import TreebankWordDetokenizer
-from summarizer import Summarizer,TransformerSummarizer
+from summarizer import Summarizer
 
 # may need to download some of the nltk stuff and the bert-extractive-summarizer, uncomment the below lines to download it
 # nltk.download('punkt')
